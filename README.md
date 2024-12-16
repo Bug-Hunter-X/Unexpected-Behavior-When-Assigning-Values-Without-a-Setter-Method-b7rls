@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Ruby:  the failure to correctly modify object attributes when only a getter method is defined. The `bug.rb` file shows the problematic code, while `bugSolution.rb` presents the corrected version, illustrating how to use `attr_accessor` or define both getter and setter methods for proper attribute modification.
